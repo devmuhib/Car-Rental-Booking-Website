@@ -1,0 +1,21 @@
+.contact__form {
+  width: 47%;
+}
+
+.contact__form input {
+  border: none;
+  border: 1px solid #7c8a972a;
+  padding: 8px 15px;
+  color: #7c8a97;
+}
+
+.contact__form textarea {
+  border: none;
+  border: 1px solid #7c8a972a;
+  padding: 8px 15px;
+  color: #7c8a97;
+}
+
+.contact__form textarea:focus {
+  outline: none;
+}

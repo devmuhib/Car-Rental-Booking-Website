@@ -1,0 +1,36 @@
+.paginationBttns {
+  width: 80%;
+  margin: auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+
+.paginationBttns a {
+  padding: 5px 13px;
+  background: #000d6b;
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.car__sorting span {
+  color: #000d6b;
+  font-weight: 600;
+}
+
+.car__sorting select {
+  border: 1px solid #7c8a972a;
+  padding: 8px 15px;
+  color: #7c8a97;
+}
+
+.car__sorting select:focus {
+  outline: none;
+}

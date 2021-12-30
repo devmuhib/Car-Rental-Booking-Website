@@ -1,0 +1,14 @@
+@media only screen and (max-width: 991px) {
+  .about__title {
+    font-size: 1.5rem !important;
+  }
+  .about__phone {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .about__img {
+    display: none;
+  }
+}

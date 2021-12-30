@@ -1,0 +1,29 @@
+.login__form input {
+  border: none;
+  outline: none;
+  color: #7c8a97 !important;
+  border-left: 1px solid #7c8a972f;
+  border-radius: 0;
+  font-size: 14px;
+  padding: 5px 15px;
+}
+
+.login__form span i {
+  color: #7c8a97;
+  font-size: 1rem;
+}
+
+.login__form {
+  border: 1px solid #7c8a972f;
+  padding: 5px 15px;
+}
+
+.login__btn {
+  padding: 7px 25px;
+  border: none;
+  outline: none;
+  background: #000d6b;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}

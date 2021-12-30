@@ -1,0 +1,20 @@
+.cart__item__info {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+  border-bottom: 1px solid #7c8a972c;
+  padding-bottom: 15px;
+  /* padding-top: 10px; */
+}
+
+.cart__item__info img {
+  width: 50px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.cart__del {
+  cursor: pointer;
+  color: #000d6b;
+  font-weight: 600;
+}

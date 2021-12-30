@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+  .single__service h2 {
+    font-size: 1rem !important;
+  }
+  .single__service {
+    padding: 10px 5px !important;
+  }
+  .single__service p {
+    font-size: 0.8rem !important;
+    line-height: 1.5rem;
+    margin-bottom: 0 !important;
+  }
+
+  .single__service button {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+  }
+  .single__service__right h2 {
+    font-size: 1.3rem !important;
+  }
+  .single__service__right p {
+    font-size: 0.7rem !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .single__service {
+    margin-bottom: 20px;
+  }
+  .single__service {
+    margin-top: 10px !important;
+  }
+}

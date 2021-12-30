@@ -1,0 +1,34 @@
+.plus__minus {
+  background: #7c8a9731;
+  padding: 3px 8px;
+  border-radius: 50px;
+}
+
+.plus__minus span i {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .product__details h4 {
+    font-size: 1.2rem !important;
+  }
+  .product__details p {
+    font-size: 0.8rem !important;
+    line-height: 1.5rem;
+  }
+  .product__details button {
+    margin-top: 15px !important;
+    padding: 5px 10px;
+    font-size: 0.7rem;
+  }
+  .related__products h2 {
+    font-size: 1.3rem !important;
+    margin-top: 30px;
+  }
+  .top__selling h6 {
+    font-size: 0.9rem !important;
+  }
+  .category__title {
+    font-size: 1.1rem !important;
+  }
+}

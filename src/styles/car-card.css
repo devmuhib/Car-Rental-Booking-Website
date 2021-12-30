@@ -1,0 +1,53 @@
+@media only screen and (max-width: 991px) {
+  .carItem h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  .carItem h6 {
+    font-size: 1.1rem;
+    margin: 0 !important;
+    margin-top: 10px !important;
+  }
+  .car__item-info span {
+    font-size: 0.8rem;
+    justify-content: space-between;
+  }
+  .car__item-info {
+    flex-wrap: wrap;
+  }
+  .carItem button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .carItem h4 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  .carItem h6 {
+    font-size: 0.9rem;
+    margin: 0 !important;
+    margin-top: 10px !important;
+  }
+  .car__item-info span {
+    font-size: 0.6rem;
+    justify-content: space-between;
+  }
+  .car__item-info {
+    flex-wrap: wrap;
+  }
+  .carItem button {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .car__item-info span {
+    font-size: 0.6rem;
+
+    justify-content: center !important;
+  }
+}

@@ -1,0 +1,40 @@
+.carItem {
+  border: 1px solid #7c8a9736;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.car__item-info span i {
+  color: #f9a826;
+  font-size: 17px;
+}
+
+.carItem__btn {
+  border-radius: 0;
+  background: #000d6b;
+  border: none;
+  outline: none;
+}
+
+.carItem__btn-details {
+  background: #f9a826;
+  border-radius: 0px 4px 4px 0px;
+}
+.carItem__btn-rent:hover {
+  background: #000d6b;
+}
+.carItem__btn-details:hover {
+  background: #f9a826;
+}
+
+.carItem__btn-rent {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.car__item-content h4 {
+  font-size: 30px;
+}
+
+.car__item-content h6 {
+  font-weight: 600;
+}

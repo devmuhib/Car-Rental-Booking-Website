@@ -1,0 +1,157 @@
+.form__group {
+  width: 30%;
+  margin-bottom: 0;
+}
+.select__form select:focus {
+  outline: none;
+}
+.form__group input {
+  border: none;
+  border: 1px solid #7c8a972a;
+  padding: 8px 15px;
+  color: #7c8a97;
+}
+
+.form__group input:focus {
+  outline: none;
+}
+
+form {
+  background: #fff;
+}
+
+.find__car__right {
+  column-gap: 1rem;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+.find__car__left {
+  background: linear-gradient(rgb(249, 168, 38, 0.9), rgb(249, 168, 38, 0.9)),
+    url('http://localhost:5000/images/toyota-offer-2.861de085.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 65px 35px;
+}
+
+.find__car__left h2 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.form {
+  padding-top: 55px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.select__form {
+  width: 30%;
+}
+.select__form select {
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  border: 1px solid #7c8a972a;
+  border-radius: 4px;
+  color: #7c8a97;
+}
+
+.find__car__btn {
+  width: 100%;
+  padding: 8px 15px;
+  background: #000d6b;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.find__car__btn:hover {
+  background: #000d6b;
+}
+
+.form__row {
+  background: #fff;
+  box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+
+.time__picker:before {
+  content: 'Journey Time';
+  margin-right: 0.6em;
+  color: #7c8a97;
+}
+
+@media only screen and (max-width: 991px) {
+  .find__car__left {
+    padding: 55px 22px;
+  }
+  .find__car__left h2 {
+    font-size: 1.7rem;
+  }
+  .form {
+    padding: 30px 10px;
+  }
+  .select__form select {
+    padding: 7px 10px;
+    font-size: 0.8rem;
+  }
+  .form__group input {
+    font-size: 0.8rem;
+    padding: 7px 10px;
+  }
+  .find__car__right {
+    column-gap: 0.8rem;
+
+    row-gap: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .find__car__left {
+    /* display: none; */
+    padding-top: 20px;
+    padding-bottom: 0;
+    background: #fff;
+    text-align: center;
+  }
+
+  .form {
+    padding: 20px 10px;
+  }
+  .find__car__right {
+    column-gap: 0.5rem;
+
+    row-gap: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .form__group {
+    width: 100%;
+    margin-bottom: 15px;
+    margin: auto;
+  }
+  .form__group input {
+    font-size: 10px !important;
+  }
+  .select__form {
+    width: 100%;
+    padding-right: 10px;
+    margin: auto;
+    font-size: 10px !important;
+  }
+
+  .find__car__right {
+    column-gap: 0;
+
+    row-gap: 0;
+  }
+  .find__car__btn {
+    font-size: 12px;
+  }
+  .find__car__left h2 {
+    font-size: 1rem !important;
+  }
+}

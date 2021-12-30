@@ -1,0 +1,279 @@
+.header__top {
+  background: #000d6b;
+  padding: 10px 0px;
+  color: #fff;
+}
+
+.header__top-left {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.header__top-help {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.header__top-help i {
+  background: #fff;
+  padding: 2px 4px;
+  border-radius: 50%;
+  color: #000d6b;
+  font-size: 12px;
+}
+
+.header__top-right {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__top-right a {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.main__header {
+  padding: 20px 0px;
+}
+.logo h1 a {
+  display: flex;
+  align-items: center;
+
+  column-gap: 8px;
+  font-weight: 700;
+}
+
+.logo h1 a span {
+  font-size: 25px !important;
+}
+.logo h1 a i {
+  font-size: 35px;
+}
+
+.logo h1 {
+  line-height: 25px;
+}
+
+.header__location {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.header__location span i {
+  font-size: 35px;
+  color: #000d6b;
+}
+
+.header__location-content h4 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.header__location-content h6 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header__btn a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 5px;
+}
+
+.header__btn {
+  background: #000d6b;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.header__btn:hover {
+  background: #000d6b;
+}
+
+.header__bottom {
+  background: #000d6b;
+  color: #fff;
+  padding: 15px 0px;
+}
+.menu__bar {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.header__cart i {
+  font-size: 22px;
+  /* position: relative; */
+  cursor: pointer;
+}
+.header__cart {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background: #f9a826;
+  color: #000d6b;
+  /* padding: 3px; */
+  width: 15px;
+  height: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.search {
+  border: 1px solid #7c8a972f;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background: #020a4de9;
+}
+
+.search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #7c8a97;
+}
+
+.active {
+  color: #f9a826;
+}
+
+@media only screen and (max-width: 1199px) {
+  .header__location span i {
+    font-size: 2rem;
+  }
+
+  .header__location-content h4 {
+    font-size: 20px;
+  }
+
+  .header__btn {
+    padding: 0.9rem 1rem;
+  }
+  .header__btn a {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header__location span i {
+    font-size: 1.5rem;
+  }
+
+  .header__location-content h4 {
+    font-size: 1rem;
+  }
+
+  .header__location-content h6 {
+    font-size: 0.7rem;
+  }
+
+  .header__btn {
+    padding: 0.7rem 0.7rem;
+  }
+  .header__btn a {
+    font-size: 0.7rem;
+  }
+
+  .logo h1 a span {
+    font-size: 20px !important;
+  }
+  .logo h1 a i {
+    font-size: 30px;
+  }
+
+  .menu__bar {
+    display: block;
+  }
+  .menu__list {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6));
+    z-index: 7001;
+    display: none;
+  }
+  .menu__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    row-gap: 1rem;
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7002;
+    background: #fff;
+    color: #000d6b;
+    padding-top: 100px;
+  }
+
+  .menu__active {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header__btn {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .header__bottom {
+    padding: 10px 0px;
+  }
+  .header__cart {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .header__top-left {
+    display: none;
+  }
+
+  .header__top-right {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__top-right a {
+    font-size: 0.7rem;
+  }
+  .header__location {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .main__header {
+    padding: 15px 0px;
+  }
+}
